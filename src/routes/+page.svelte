@@ -1,6 +1,9 @@
 <main>
-  <div class='flex flex-row items-center justify-center h-screen'>
+  <div class='flex flex-col items-center justify-center h-screen'>
     <h1>NetSu.<span  class='network'>NETWORK</span></h1>
+    <div class='grid grid-flow-row'>
+      <h2>Coming Soon, Near a Local Walmart.</h2>
+    </div>
   </div>
 </main>
 
@@ -20,7 +23,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    margin: 0;
 
     @apply text-8xl;
+  }
+
+  h2 {
+    color: white
   }
 </style>
