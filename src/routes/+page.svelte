@@ -1,13 +1,18 @@
+<script type='ts'>
+	import MetaButtons from '../components/MetaButtons.svelte';
+</script>
+
 <main>
   <div class='flex flex-col items-center justify-center h-screen'>
     <h1>NetSu.<span  class='network'>NETWORK</span></h1>
-    <div class='grid grid-flow-row'>
+    <MetaButtons/>
+    <div class='grid grid-flow-row-dense text-sm lg:text-lg'>
       <h2>Coming Soon, Near a Local Walmart.</h2>
     </div>
   </div>
 </main>
 
-<style type='scss'>
+<style lang='scss'>
   main {
     @apply h-screen w-screen;
   }
